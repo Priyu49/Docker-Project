@@ -20,6 +20,13 @@ def test_about():
         "message": "Docker and GitHub Actions learning project"
     }
 
+
+def test_health():
+    response = client.get("/health")
+
+    assert response.status_code == 200
+    assert response.json() == {"status": "healthy"}
+
 def test_products():
     response = client.get("/products")
 
