@@ -1,5 +1,7 @@
 # Docker Project
 
+[![FastAPI CI](https://github.com/Priyu49/Docker-Project/actions/workflows/ci.yaml/badge.svg)](https://github.com/Priyu49/Docker-Project/actions/workflows/ci.yaml)
+
 A small FastAPI application for learning Docker and GitHub Actions. It exposes a few sample endpoints and can run locally or in a Docker container.
 
 ## Features
